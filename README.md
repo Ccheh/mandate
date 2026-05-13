@@ -9,9 +9,19 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Tests](https://img.shields.io/badge/tests-43%2F43%20passing-success)](#)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.28-blue)](contracts/foundry.toml)
+[![Arc Testnet](https://img.shields.io/badge/Arc%20Testnet-v0%20live-blue)](https://testnet.arcscan.app/address/0xfbbdaec05e0061adeb955896dff183fdd412e6e4)
 
-> **Read this first.** Mandate is v0. The Solidity is complete and tested; no
-> on-chain deployment yet. The pitch is: Circle's Arc thesis (regulated
+### v0 on Arc Testnet
+
+| Contract | Address | Deploy tx |
+|---|---|---|
+| **Mandate** | [`0xfbbdaec05e0061adeb955896dff183fdd412e6e4`](https://testnet.arcscan.app/address/0xfbbdaec05e0061adeb955896dff183fdd412e6e4) | [`0x10e5329d...`](https://testnet.arcscan.app/tx/0x10e5329de0ef0b37a36f0d9619d9c4de1e31b1aacc0a839bff650863db2f5677) |
+
+Deployed gas: 1.17M (~0.047 USDC at 40 gwei).
+
+> **Read this first.** Mandate is v0. The Solidity is complete, tested, and
+> deployed to Arc Testnet — but no SDK yet and no on-chain lifecycle has
+> been run by a third-party issuer. The pitch is: Circle's Arc thesis (regulated
 > stablecoin native gas, compliance hooks, controllable finality) creates the
 > base-layer conditions for institutions to use crypto — but the application
 > layer where institutions actually deploy AI agents to spend money does not

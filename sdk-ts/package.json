@@ -1,0 +1,25 @@
+{
+  "name": "@mandate/sdk",
+  "version": "0.0.1",
+  "description": "TypeScript SDK for Mandate — institutional × agent authorization layer on Arc.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "tsc --noEmit"
+  },
+  "keywords": ["mandate", "arc", "usdc", "agent", "institutional", "authorization", "compliance"],
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.48.11"
+  },
+  "devDependencies": {
+    "@types/node": "^25.7.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.6"
+  }
+}
