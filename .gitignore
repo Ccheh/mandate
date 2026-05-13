@@ -1,0 +1,31 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+**/.env
+
+# Foundry
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+contracts/.gas-snapshot
+
+# Node
+node_modules/
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Private working files
+private/
+docs/prompts/
+docs/strategy-*.md
+
+# Local editor / agent session state
+.claude/
