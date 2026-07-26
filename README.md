@@ -6,6 +6,7 @@
 > audit trail per action, and can be revoked instantly. The missing IAM
 > primitive for the institutional half of Arc's regulated-stablecoin thesis.
 
+[![CI](https://github.com/Ccheh/mandate/actions/workflows/ci.yml/badge.svg)](https://github.com/Ccheh/mandate/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Tests](https://img.shields.io/badge/tests-43%2F43%20passing-success)](#)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.28-blue)](contracts/foundry.toml)
